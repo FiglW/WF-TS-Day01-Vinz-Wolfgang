@@ -1,8 +1,34 @@
-var menu : Array<string>=['Schnitzel','Veggie-Burger','Toast','Spaghetti Carbonara','Eiernockerl'];
+var menus : Array<string>=['Schnitzel','Veggie-Burger','Toast','Spaghetti Carbonara','Eiernockerl'];
 
-const [itemOne,itemTwo,itemThree,itemFour,itemFifth] = menu;
+const [itemOne,itemTwo,itemThree,itemFour,itemFifth] = menus;
 
-for(let i = 0 ; i < menu.length ; i++){
+
+
+for(let menu of menus){
+	console.log(menu);
+}
+
+
+// let isBeginner: datatype =.....//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for(let i = 0 ; i < menu.length ; i++){
    var newdiv = document.createElement("p");
 
 // create a <p> element
@@ -39,9 +65,8 @@ document.body.appendChild(newdiv);
 
 // Append <p> to the body tag
 }
-/* Here we have a function named newItem and the type of the function is void */
 
 function promotion(item: string,price: number): any {
    return "Don't miss our promotion of "+ item + " for just "+ price + " Euro";
 }
-document.getElementById('target').innerHTML=promotion(itemThree,1);
+document.getElementById('target').innerHTML=promotion(itemThree,1);*/
